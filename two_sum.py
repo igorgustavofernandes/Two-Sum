@@ -7,9 +7,9 @@ for c in range(4):
 target = int(input('Enter the target sum: '))       
 
 for i, num in enumerate(nums):
-    complemento = target - num
-    if complemento in nums_vistos:
-        print(f'Complement Index: {nums_vistos[complemento]} Actual Index: {i}')
+    complement = target - num
+    if complement in nums_vistos:
+        print(f'Complementary Index: {nums_vistos[complement]} Current Index {i}')
         break
     else:
         nums_vistos[num] =  i

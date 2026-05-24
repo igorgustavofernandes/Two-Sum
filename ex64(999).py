@@ -1,0 +1,9 @@
+c = 0
+soma = 0
+total = 0
+while c != 999:
+    c = int(input('Digite um valor ou "999" para parar: '))
+    if c != 999:
+        soma += c
+        total += 1
+print('O total de números digitados foi {} e a soma dos números é {}: '.format(total, soma), end='')
